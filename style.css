@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+}
+div ul{
+    display: flex;
+    gap: 30px;
+}
+.home, .cart{
+    color: #252432;
+    font-family: "Inter", sans-serif;
+    font-weight: 700; 
+}
+.shop, .about-us{
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    font-weight: 400; 
+}
