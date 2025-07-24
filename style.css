@@ -62,3 +62,65 @@ div ul{
 .plants-des{
     width: 800px;
 }
+.section-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-title span {
+    color: #ff6600;
+    font-weight: bold;
+}
+.section-title h2 {
+    display: inline;
+    font-weight: bold;
+}
+.section-description {
+    text-align: center;
+    color: #777;
+    max-width: 600px;
+    margin: 10px auto 40px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 60px;
+}
+.product-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.product-title {
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.product-price {
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.add-to-cart {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.add-to-cart:hover {
+    background-color: #e65c00;
+}
