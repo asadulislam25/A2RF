@@ -38,7 +38,7 @@ div ul{
 .description{
     font-family: "Inter", sans-serif;
     font-weight: 400; 
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(0, 0, 0, 0.5);
 }
 .hero-section1{
@@ -86,12 +86,12 @@ div ul{
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 30px;
     margin-top: 60px;
 }
 .product-card {
     background-color: white;
-    padding: 20px;
+    padding: 25px 0px;
     text-align: center;
 }
 
@@ -123,4 +123,39 @@ div ul{
 }
 .add-to-cart:hover {
     background-color: #e65c00;
+}
+
+/* style for store section */
+
+.section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 0px 150px;
+}
+.section-image {
+    flex: 1 1 400px;
+    width: 400px;
+    position: relative;
+}
+.section-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.section-text {
+    flex: 1 1 400px;
+    width: 500px;
+    margin: 20px;
+}
+.section-text h2 {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.section-text p{
+    margin-bottom: 20px;
 }
