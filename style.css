@@ -21,6 +21,7 @@ div ul{
     font-family: "Inter", sans-serif;
     font-weight: 400; 
 }
+
 .hero-section{
     display: flex;
     justify-content: space-between;
@@ -342,3 +343,155 @@ background-position: center; }
     top: 10px;
 }
 
+/* mobile responsive style */
+
+
+
+
+@media screen and (max-width: 576px) {
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 15px;
+        align-items: center;
+    }
+    .home, .shop, .about-us{
+        display: none;
+    }
+    
+
+    /* hero section */
+    .hero-section{
+        flex-direction: column-reverse;
+        margin: 10px 0px;
+    }
+    .hero-section1{
+        margin: 30px 15px;
+
+    }
+    .hero-header1, .hero-header2{
+        font-size: 24px;
+    }
+    .description{
+        width: 400px;
+        font-size: 14px;
+    }
+
+    /* our planet section */
+
+    .plants-section{
+    margin: 30px 15px;
+}
+    .plants-header{
+        font-size: 24px;
+    }
+    .section-title{
+        margin: 0px 15px;
+    }
+    .product-grid {
+    margin: 0px 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.product-card {
+    width: 170px;
+    background-color: white;
+    padding: 0px 0px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.product-title {
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.product-price {
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.add-to-cart {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px;
+    
+}
+
+.section-wrapper{
+    margin: 0px 15px;
+}
+.trusted-badge{
+    display: none;
+}
+.section-text h2{
+    margin-top: -30px;
+    font-size: 24px;
+}
+.section-text p{
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.deals-container {
+    margin: 20px 15px;
+    flex-direction: column;
+  }
+
+  .deals-left,
+  .deals-right {
+    flex-basis: 100%;
+    width: 90vw;
+    
+  }
+
+  .deals-right .deal-large {
+    margin-top: 15px;
+    height: 200px;
+    width: 90vw;
+  }
+
+  .deal-info>p {
+    font-size: 2rem;
+  }
+
+  .subscription{
+    height: 350px;
+  }
+
+  .subscription-content h3{
+    font-size: 30px;
+  }
+ 
+
+ .subscription-form {
+    display: flex;
+    width: 90vw;
+    
+  }
+  .subscription-form input {
+    width: 90vw;
+  }
+
+  .subscription-form button {
+    width: 60%;
+  }
+
+  .footer-section {
+    margin: 40px 20px;
+    flex-direction: column;
+    text-align: left;
+    gap: 24px;
+  }
+   
+}
