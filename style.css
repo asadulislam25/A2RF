@@ -308,3 +308,88 @@ background-position: center; }
     font-weight: bold;
 }
 
+/* style for footer section */
+/* .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #fafbfc;
+    padding: 40px 20px;
+    margin: 80px 150px;
+}
+
+.footer-left {
+    max-width: 250px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    
+}
+
+.footer-links ul {
+    list-style: none;
+    
+}
+
+.footer-links li {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #444;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #888;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+.footer-social img:hover {
+    transform: scale(1.1);
+} */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+}
+.footer-menu1, .footer-menu2{
+    display: grid;
+}
+.footer-menu1, .footer-menu2 li a{
+    font-family: "Inter", sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    color: #6B7280;
+}
+.footer-section1 p{
+    width: 300px;
+}
+.footer-section4{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+#twitter{
+    position: relative;
+    top: 10px;
+}
