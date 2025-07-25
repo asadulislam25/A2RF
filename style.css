@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+/* header section */
 .header{
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,8 @@ div ul{
     font-weight: 400; 
 }
 
+/* hero section */
+
 .hero-section{
     display: flex;
     justify-content: space-between;
@@ -33,6 +36,8 @@ div ul{
     font-size: 60px;
     
 }
+
+/* orange colour */
 .orange{
     color: #E95A08;
 }
@@ -46,6 +51,8 @@ div ul{
     width: 50%;
     margin-top: 30px;
 }
+
+/* plants section */
 .plants-section{
     margin: 80px 150px;
 }
@@ -121,11 +128,8 @@ div ul{
     border-radius: 4px;
     cursor: pointer;
 }
-.add-to-cart:hover {
-    background-color: #e65c00;
-}
 
-/* style for store section */
+/* Flower & Plants Lover section */
 
 .section-wrapper {
     display: flex;
@@ -350,46 +354,44 @@ background-position: center; }
 
 @media screen and (max-width: 576px) {
     
-    .header{
-        display: flex;
-        justify-content: space-between;
-        margin: 30px 15px;
-        align-items: center;
-    }
-    .home, .shop, .about-us{
-        display: none;
-    }
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+    align-items: center;
+}
+
+.home, .shop, .about-us{
+    display: none;
+}
     
-
-    /* hero section */
-    .hero-section{
-        flex-direction: column-reverse;
-        margin: 10px 0px;
-    }
-    .hero-section1{
-        margin: 30px 15px;
-
-    }
-    .hero-header1, .hero-header2{
-        font-size: 24px;
-    }
-    .description{
-        width: 400px;
-        font-size: 14px;
-    }
-
-    /* our planet section */
-
-    .plants-section{
+/* hero section */
+.hero-section{
+    flex-direction: column-reverse;
+    margin: 10px 0px;
+}
+.hero-section1{
     margin: 30px 15px;
 }
-    .plants-header{
-        font-size: 24px;
-    }
-    .section-title{
-        margin: 0px 15px;
-    }
-    .product-grid {
+.hero-header1, .hero-header2{
+    font-size: 24px;
+}
+.description{
+    width: 400px;
+    font-size: 14px;
+}
+
+/* our planet section */
+.plants-section{
+    margin: 30px 15px;
+}
+.plants-header{
+    font-size: 24px;
+}
+.section-title{
+    margin: 0px 15px;
+}
+.product-grid {
     margin: 0px 15px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -424,10 +426,8 @@ background-position: center; }
     padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;
-    border-radius: 0px;
-    
+    border-radius: 0px;   
 }
-
 .section-wrapper{
     margin: 0px 15px;
 }
@@ -446,52 +446,47 @@ background-position: center; }
 .deals-container {
     margin: 20px 15px;
     flex-direction: column;
-  }
-
-  .deals-left,
-  .deals-right {
+}
+.deals-left, .deals-right {
     flex-basis: 100%;
     width: 90vw;
-    
-  }
+}
 
-  .deals-right .deal-large {
+.deals-right .deal-large {
     margin-top: 15px;
     height: 200px;
     width: 90vw;
-  }
+}
 
-  .deal-info>p {
+.deal-info>p {
     font-size: 2rem;
-  }
+}
 
-  .subscription{
+.subscription{
     height: 350px;
-  }
+}
 
-  .subscription-content h3{
+.subscription-content h3{
     font-size: 30px;
-  }
- 
-
- .subscription-form {
+}
+.subscription-form {
     display: flex;
     width: 90vw;
-    
-  }
-  .subscription-form input {
+}
+.subscription-form input {
     width: 90vw;
-  }
+}
 
-  .subscription-form button {
+.subscription-form button {
     width: 60%;
-  }
-
-  .footer-section {
+}
+.footer-section {
     margin: 40px 20px;
     flex-direction: column;
     text-align: left;
     gap: 24px;
-  }
-   
+} 
+
 }
+
+/* style end */
